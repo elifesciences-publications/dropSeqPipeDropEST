@@ -1,5 +1,8 @@
 Description
 ------------------
+
+This code is associated with the paper from Rajbhandari et al., "Single cell analysis reveals immune cell–adipocyte crosstalk regulating the transcription of thermogenic adipocytes". eLife, 2019. http://dx.doi.org/10.7554/eLife.49501 
+
 This pipeline is based on [snakemake](https://snakemake.readthedocs.io/en/stable/) and the dropseq tools provided by the [McCarroll Lab](http://mccarrolllab.com/dropseq/). It starts from raw sequencing data and outputs digital gene expression matrices (DGEs).
 
 This method is an adapted version of [dropSeqPipe](https://github.com/Hoohm/dropSeqPipe) which we have found to be much more sophisticated and flexible than our old [snakemake](https://snakemake.readthedocs.io/en/stable/) implementation of [Drop-seq Tools](http://mccarrolllab.com/download/1276/). The old version of the pipeline is available [here](https://github.com/darneson/DropSeq)
